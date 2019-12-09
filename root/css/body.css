@@ -1,11 +1,71 @@
-.header{
+@import "/root/fonts/Xenotron.ttf";
 
+body{
+    margin: 0px;
+    display: block;
+    height: 100%;
+    background: url("/root/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-.content{
-
+a{
+    text-decoration: none;
+    color:teal;
 }
 
-.footer{
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #c1aa94;
+    border: 2px outset #01121c;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 10px #0b2e2f;
+    position: relative;
+}
 
+.container > div{
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.name{
+    font-family: Xenotron;
+    font-size: 35px;
+    width: 49%;
+    text-align: center;
+}
+.name > small{
+    font-size: 15px;
+    color: dimgray;
+    display: block;
+    text-align: center;
+}
+
+.links{
+    width: 49%;
+    text-align: left;
+}
+
+.about{
+    margin: 10px;
+    text-align: justify;
+}
+ul{
+    border-top: 1px solid #0b2e2f;
+    margin-top:10px;
+    padding-top: 10px;
+}
+ul > li {
+    list-style: none;
+}
+
+ul > li::before {
+    content: '›';
+    position: relative;
+    bottom: 2px;
+    right: 2px;
 }
