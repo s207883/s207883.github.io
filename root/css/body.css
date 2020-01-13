@@ -25,7 +25,7 @@ a{
 .card{
     max-width: 550px;
     align-self: center;
-    padding: 10px 0;
+    padding: 10px 5px;
     background-color: #c1aa94;
     border: 2px outset #01121c;
     border-top-left-radius: 10px;
@@ -53,6 +53,7 @@ a{
 }
 
 .links{
+    text-indent: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
     width: 49%;
@@ -64,10 +65,8 @@ a{
 .about{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 15px;
-    margin: 10px;
-    text-align: justify;
+    margin: 10px auto;
 
-    
 }
 ul{
     border-top: 1px solid #0b2e2f;
